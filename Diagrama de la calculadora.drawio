@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="Ek8F3yJTuxRW2mY6yng5">
-    <mxGraphModel dx="515" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="708" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LuU8UaV7FP29PiQWQKsv-81" edge="1" parent="1" source="LuU8UaV7FP29PiQWQKsv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LuU8UaV7FP29PiQWQKsv-80" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="375" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="LuU8UaV7FP29PiQWQKsv-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="+,-,*,/ ó s&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="114.5" x="167.63" y="360" as="geometry" />
@@ -151,6 +155,10 @@
         </mxCell>
         <mxCell id="LuU8UaV7FP29PiQWQKsv-75" edge="1" parent="1" source="LuU8UaV7FP29PiQWQKsv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="550" />
+              <mxPoint x="720" y="980" />
+            </Array>
             <mxPoint x="683.0000000000002" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
