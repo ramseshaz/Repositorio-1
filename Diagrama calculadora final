@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="kIWOb5VSGmn4tiMY5cB4">
-    <mxGraphModel dx="756" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="630" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aKuTIyaEJRn25V-MDoux-53" parent="1" style="whiteSpace=wrap;html=1;" value="C= A / B" vertex="1">
+          <mxGeometry height="30" width="70" x="453" y="1025" as="geometry" />
+        </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="264.87999999999977" y="130" as="sourcePoint" />
@@ -161,7 +164,7 @@
             <mxPoint x="723.0000000000002" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aKuTIyaEJRn25V-MDoux-47" parent="1" style="whiteSpace=wrap;html=1;" value="A = A + B" vertex="1">
+        <mxCell id="aKuTIyaEJRn25V-MDoux-47" parent="1" style="whiteSpace=wrap;html=1;" value="C= A + B" vertex="1">
           <mxGeometry height="30" width="70" x="573" y="575" as="geometry" />
         </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-48" edge="1" parent="1" source="aKuTIyaEJRn25V-MDoux-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
@@ -169,7 +172,7 @@
             <mxPoint x="723.0000000000002" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aKuTIyaEJRn25V-MDoux-49" parent="1" style="whiteSpace=wrap;html=1;" value="A = A - B" vertex="1">
+        <mxCell id="aKuTIyaEJRn25V-MDoux-49" parent="1" style="whiteSpace=wrap;html=1;" value="C= A - B" vertex="1">
           <mxGeometry height="30" width="70" x="573" y="675" as="geometry" />
         </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-50" edge="1" parent="1" source="aKuTIyaEJRn25V-MDoux-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
@@ -177,14 +180,11 @@
             <mxPoint x="723.0000000000002" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aKuTIyaEJRn25V-MDoux-51" parent="1" style="whiteSpace=wrap;html=1;" value="A = A&amp;nbsp;&lt;span style=&quot;font-size: 7px;&quot;&gt;*&amp;nbsp;&lt;/span&gt;B" vertex="1">
+        <mxCell id="aKuTIyaEJRn25V-MDoux-51" parent="1" style="whiteSpace=wrap;html=1;" value="C= A * B" vertex="1">
           <mxGeometry height="30" width="70" x="573" y="775" as="geometry" />
         </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-52" edge="1" parent="1" source="aKuTIyaEJRn25V-MDoux-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aKuTIyaEJRn25V-MDoux-61" value="">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aKuTIyaEJRn25V-MDoux-53" parent="1" style="whiteSpace=wrap;html=1;" value="A = A / B" vertex="1">
-          <mxGeometry height="30" width="70" x="453" y="1025" as="geometry" />
         </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-54" edge="1" parent="1" source="aKuTIyaEJRn25V-MDoux-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aKuTIyaEJRn25V-MDoux-45" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -236,7 +236,7 @@
             <mxPoint x="720" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aKuTIyaEJRn25V-MDoux-68" parent="1" style="whiteSpace=wrap;html=1;" value="A = A / B" vertex="1">
+        <mxCell id="aKuTIyaEJRn25V-MDoux-68" parent="1" style="whiteSpace=wrap;html=1;" value="C= A / B" vertex="1">
           <mxGeometry height="30" width="70" x="579.81" y="875" as="geometry" />
         </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si" vertex="1">
