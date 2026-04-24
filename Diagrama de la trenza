@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Como ponerles las trenza a un Zapato y amarralos" vertex="1">
-          <mxGeometry height="70" width="200" x="129" y="80" as="geometry" />
+          <mxGeometry height="70" width="200" x="80" y="40" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-3" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-9" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -17,143 +17,143 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="Tienes un zapato?" vertex="1">
-          <mxGeometry height="85" width="186" x="136" y="225" as="geometry" />
+          <mxGeometry height="85" width="186" x="87" y="185" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="505" y="350" />
-              <mxPoint x="388" y="350" />
+              <mxPoint x="456" y="310" />
+              <mxPoint x="339" y="310" />
             </Array>
-            <mxPoint x="505" y="297.5" as="sourcePoint" />
-            <mxPoint x="323" y="420" as="targetPoint" />
+            <mxPoint x="456" y="257.5" as="sourcePoint" />
+            <mxPoint x="274" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-7" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UyssDzHypec-wdBvY-Gp-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="553" y="432.5" as="targetPoint" />
+            <mxPoint x="504" y="392.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-8" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UyssDzHypec-wdBvY-Gp-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="El zapato tiene trenzas?" vertex="1">
-          <mxGeometry height="85" width="186" x="136" y="390" as="geometry" />
+          <mxGeometry height="85" width="186" x="87" y="350" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca un zapato" vertex="1">
-          <mxGeometry height="60" width="120" x="445" y="237.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="396" y="197.5" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Si" vertex="1">
-          <mxGeometry height="30" width="30" x="203" y="310" as="geometry" />
+          <mxGeometry height="30" width="30" x="154" y="270" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="40" x="313" y="237.5" as="geometry" />
+          <mxGeometry height="30" width="40" x="264" y="197.5" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-13" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="540" as="targetPoint" />
+            <mxPoint x="271" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Quitales las trenzas" vertex="1">
-          <mxGeometry height="60" width="120" x="169" y="510" as="geometry" />
+          <mxGeometry height="60" width="120" x="120" y="470" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-18" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="OddsKKeCiQcKf4K1ASM7-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="625" y="540" />
+              <mxPoint x="576" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca unas trenzas" vertex="1">
-          <mxGeometry height="60" width="120" x="565" y="402.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="516" y="362.5" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="40" x="313" y="432.5" as="geometry" />
+          <mxGeometry height="30" width="40" x="264" y="392.5" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Si" vertex="1">
-          <mxGeometry height="30" width="30" x="203" y="475" as="geometry" />
+          <mxGeometry height="30" width="30" x="154" y="435" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-22" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-31" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Divide la trenza a la mitad introduciendo las puntas por los dos primeros ojales de izquierda a derecha&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="301" x="99" y="790" as="geometry" />
+          <mxGeometry height="60" width="301" x="50" y="750" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-24" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Divide la trenza a la mitad y ubicar los primeros ganchos del zapato" vertex="1">
-          <mxGeometry height="50" width="300" x="509" y="770" as="geometry" />
+          <mxGeometry height="50" width="300" x="460" y="730" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OddsKKeCiQcKf4K1ASM7-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="453" y="600" />
-              <mxPoint x="249" y="600" />
+              <mxPoint x="404" y="560" />
+              <mxPoint x="200" y="560" />
             </Array>
-            <mxPoint x="453" y="570" as="sourcePoint" />
+            <mxPoint x="404" y="530" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OddsKKeCiQcKf4K1ASM7-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="453" y="600" />
-              <mxPoint x="659" y="600" />
+              <mxPoint x="404" y="560" />
+              <mxPoint x="610" y="560" />
             </Array>
-            <mxPoint x="453" y="570" as="sourcePoint" />
+            <mxPoint x="404" y="530" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UyssDzHypec-wdBvY-Gp-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="249" y="1010" />
+              <mxPoint x="200" y="970" />
             </Array>
-            <mxPoint x="249" y="930" as="sourcePoint" />
+            <mxPoint x="200" y="890" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&amp;nbsp;Sigue con los proximos ojales de forma simultanea y simetria de afuera hacia adentro, hasta pasar por el ultimo ojal del zapato&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="301" x="99" y="880" as="geometry" />
+          <mxGeometry height="70" width="301" x="50" y="840" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-32" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-35" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Siguiente atravesar las trenzas por los ganchos de afuera hacia adentro con firmeza para asegurar la fijacion de la trenza y no se salga del gancho" vertex="1">
-          <mxGeometry height="50" width="300" x="509" y="840" as="geometry" />
+          <mxGeometry height="50" width="300" x="460" y="800" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-34" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="UyssDzHypec-wdBvY-Gp-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="659" y="1010" />
+              <mxPoint x="610" y="970" />
             </Array>
-            <mxPoint x="658.5" y="940" as="sourcePoint" />
+            <mxPoint x="609.5" y="900" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="de forma simultanea manteniendo la simetria, pasa la trenza por cada gancho, hasta pasar por el ultimo gancho del zapato" vertex="1">
-          <mxGeometry height="50" width="300" x="509" y="910" as="geometry" />
+          <mxGeometry height="50" width="300" x="460" y="870" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-36" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UyssDzHypec-wdBvY-Gp-39" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="349.5" y="1030" as="sourcePoint" />
-            <mxPoint x="189" y="1100" as="targetPoint" />
+            <mxPoint x="300.5" y="990" as="sourcePoint" />
+            <mxPoint x="140" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tomamos los extremos que sobraron, formando una cruz y pasando una debajo de la otra y apretando" vertex="1">
-          <mxGeometry height="60" width="250" x="330" y="980" as="geometry" />
+          <mxGeometry height="60" width="250" x="281" y="940" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-38" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-41" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-39" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Repetiremos el proceso una vez mas, mientra formamos con ambos extremos dos lazos" vertex="1">
-          <mxGeometry height="60" width="161" x="129" y="1080" as="geometry" />
+          <mxGeometry height="60" width="161" x="80" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-40" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-42" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Volveremos a cruzarlas pasando una por debajo del otro y apretando" vertex="1">
-          <mxGeometry height="60" width="139.5" x="390.5" y="1080" as="geometry" />
+          <mxGeometry height="60" width="139.5" x="341.5" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ya se amarraron las trenzas" vertex="1">
-          <mxGeometry height="60" width="120" x="630" y="1080" as="geometry" />
+          <mxGeometry height="60" width="120" x="581" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-5" edge="1" parent="1" source="OddsKKeCiQcKf4K1ASM7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-23" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -162,7 +162,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Tiene ojales?" vertex="1">
-          <mxGeometry height="80" width="160" x="169" y="630" as="geometry" />
+          <mxGeometry height="80" width="160" x="120" y="590" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-6" edge="1" parent="1" source="OddsKKeCiQcKf4K1ASM7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-25" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -171,27 +171,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Tiene ganchos&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;?&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="160" x="579" y="630" as="geometry" />
+          <mxGeometry height="80" width="160" x="530" y="590" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si" vertex="1">
-          <mxGeometry height="30" width="60" x="230" y="720" as="geometry" />
+          <mxGeometry height="30" width="60" x="181" y="680" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Si" vertex="1">
-          <mxGeometry height="30" width="60" x="640" y="720" as="geometry" />
+          <mxGeometry height="30" width="60" x="591" y="680" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="60" x="322" y="640" as="geometry" />
+          <mxGeometry height="30" width="60" x="273" y="600" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="60" x="530" y="640" as="geometry" />
+          <mxGeometry height="30" width="60" x="481" y="600" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-17" edge="1" parent="1" source="OddsKKeCiQcKf4K1ASM7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="570" y="540.4761904761904" as="targetPoint" />
+            <mxPoint x="521" y="500.47619047619037" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Ubicar la punta del zapato y colocarla del lado opuesto frente a ti" vertex="1">
-          <mxGeometry height="60" width="300" x="310" y="510" as="geometry" />
+          <mxGeometry height="60" width="300" x="261" y="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
