@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="kIWOb5VSGmn4tiMY5cB4">
-    <mxGraphModel dx="1585" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
         <mxCell id="aKuTIyaEJRn25V-MDoux-11" edge="1" parent="1" source="aKuTIyaEJRn25V-MDoux-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aKuTIyaEJRn25V-MDoux-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aKuTIyaEJRn25V-MDoux-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Resultado = “A”" vertex="1">
+        <mxCell id="aKuTIyaEJRn25V-MDoux-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Resultado = “C”" vertex="1">
           <mxGeometry height="30" width="114.5" x="134.88000000000002" y="275" as="geometry" />
         </mxCell>
         <mxCell id="aKuTIyaEJRn25V-MDoux-13" edge="1" parent="1" source="aKuTIyaEJRn25V-MDoux-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aKuTIyaEJRn25V-MDoux-17" value="">
