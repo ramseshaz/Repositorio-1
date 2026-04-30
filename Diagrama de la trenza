@@ -1,14 +1,13 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="03afMGNe1x2q8ozRD2hD">
-    <mxGraphModel dx="981" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1288" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UyssDzHypec-wdBvY-Gp-1" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-5" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UyssDzHypec-wdBvY-Gp-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Como ponerles las trenza a un Zapato y amarralos" vertex="1">
-          <mxGeometry height="70" width="200" x="80" y="40" as="geometry" />
+        <mxCell id="UyssDzHypec-wdBvY-Gp-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="110" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-3" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-9" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -111,8 +110,8 @@
             <mxPoint x="200" y="890" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UyssDzHypec-wdBvY-Gp-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&amp;nbsp;Sigue con los proximos ojales de forma simultanea y simetria de afuera hacia adentro, hasta pasar por el ultimo ojal del zapato&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="301" x="50" y="840" as="geometry" />
+        <mxCell id="UyssDzHypec-wdBvY-Gp-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;Enhebra en forma cruzada hasta el ultimo ojal&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="261" x="70" y="840" as="geometry" />
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-32" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-35" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -146,14 +145,13 @@
         <mxCell id="UyssDzHypec-wdBvY-Gp-39" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Repetiremos el proceso una vez mas, mientra formamos con ambos extremos dos lazos" vertex="1">
           <mxGeometry height="60" width="161" x="80" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="UyssDzHypec-wdBvY-Gp-40" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-42" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UyssDzHypec-wdBvY-Gp-40" edge="1" parent="1" source="UyssDzHypec-wdBvY-Gp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581" y="1070" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UyssDzHypec-wdBvY-Gp-41" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Volveremos a cruzarlas pasando una por debajo del otro y apretando" vertex="1">
           <mxGeometry height="60" width="139.5" x="341.5" y="1040" as="geometry" />
-        </mxCell>
-        <mxCell id="UyssDzHypec-wdBvY-Gp-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ya se amarraron las trenzas" vertex="1">
-          <mxGeometry height="60" width="120" x="581" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-5" edge="1" parent="1" source="OddsKKeCiQcKf4K1ASM7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UyssDzHypec-wdBvY-Gp-23" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -192,6 +190,12 @@
         </mxCell>
         <mxCell id="OddsKKeCiQcKf4K1ASM7-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Ubicar la punta del zapato y colocarla del lado opuesto frente a ti" vertex="1">
           <mxGeometry height="60" width="300" x="261" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="93z0tyk4RuYC8nvKRspL-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Como ponerles las trenza a un Zapato y amarralos" vertex="1">
+          <mxGeometry height="80" width="210" x="75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="93z0tyk4RuYC8nvKRspL-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Zapato correctamente amarrado" vertex="1">
+          <mxGeometry height="80" width="150" x="580" y="1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
