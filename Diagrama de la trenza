@@ -18,12 +18,8 @@
         <mxCell id="UyssDzHypec-wdBvY-Gp-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" value="Tienes un zapato?" vertex="1">
           <mxGeometry height="85" width="186" x="87" y="185" as="geometry" />
         </mxCell>
-        <mxCell id="UyssDzHypec-wdBvY-Gp-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;">
+        <mxCell id="UyssDzHypec-wdBvY-Gp-6" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="456" y="310" />
-              <mxPoint x="339" y="310" />
-            </Array>
             <mxPoint x="456" y="257.5" as="sourcePoint" />
             <mxPoint x="274" y="380" as="targetPoint" />
           </mxGeometry>
