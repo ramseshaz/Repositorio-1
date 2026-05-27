@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Fondo blanco, fuente limpia, sin colores llamativos */
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        
+        #resultado { 
+            width: 400px;
+            margin-top: 20px;
+        }
+
+        /* Cada persona se separa con un margen inferior para que "baje" una tras otra */
+        .persona { 
+            padding: 8px 0; 
+            border-bottom: 1px solid #eee; /* Una línea muy suave casi invisible */
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+    <h1>Lista de personas</h1>
+    <input type="file" id="archivo">
+    <button onclick="enviar()">Procesar</button>
+    <button onclick="descargarPDF()">Descargar PDF</button>
+    
+    <div id="resultado"></div>
+
+    <script>
+        let datosGlobales = [];
+
+        function enviar() {
+            let archivo = document.getElementById('archivo').files[0];
+            let datos = new FormData();
+            datos.append('archivo', archivo);
+
+            fetch('http://127.0.0.1:5000/procesar', { method: 'POST', body: datos })
+            .then(res => res.json())
+            .then(data => {
+                datosGlobales = data.datos;
+                let container = document.getElementById('resultado');
+                container.innerHTML = ""; // Limpiar antes de mostrar
+                
+                // Imprimimos la lista de forma simple
+                data.datos.forEach(p => {
+                    container.innerHTML += `<div class="persona">${p[0]} ${p[1]} - Cédula: ${p[2]}</div>`;
+                });
+            });
+        }
+
+        function descargarPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            
+            let y = 15;
+            doc.text("Lista de Personas", 10, y);
+            y += 10;
+            
+            datosGlobales.forEach(p => {
+                doc.text(`${p[0]} ${p[1]} - Cédula: ${p[2]}`, 10, y);
+                y += 10;
+            });
+            
+            doc.save("lista_personas.pdf");
+        }
+    </script>
+</body>
+</html>
