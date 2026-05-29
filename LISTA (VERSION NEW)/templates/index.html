@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Interfaz de asistencia</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+    <div style="overflow: hidden; border-bottom: 2px solid #ccc; padding-bottom: 10px; margin-bottom: 20px;">
+        <h1 style="float: left; margin: 0;">Lista de Asistencia</h1>
+        <img src="images.png" alt="Logo Universidad" style="float: right; width: 120px;">
+    </div>
+
+    <div>
+        <input type="file" id="archivo">
+        <button onclick="enviar()">Procesar</button>
+        <button onclick="descargarPDF()">Descargar PDF</button>
+        <br><br>
+
+        <input 
+            type="text" 
+            id="buscador" 
+            placeholder="Buscar por nombre, apellido o cédula"
+            onkeyup="filtrarResultados()"
+            style="
+                width: 300px;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            "
+        >
+    </div>
+    
+    <div id="resultado" style="margin-top: 20px;"></div>
+
+    <script>
+        let datosGlobales = [];
+
+        function enviar() {
+            let archivo = document.getElementById('archivo').files[0];
+            if (!archivo) { alert("Selecciona un archivo primero"); return; }
+
+            let datos = new FormData();
+            datos.append('archivo', archivo);
+
+            fetch('http://127.0.0.1:5000/procesar', { method: 'POST', body: datos })
+            .then(res => res.json())
+            .then(data => {
+                datosGlobales = data.datos;
+                let container = document.getElementById('resultado');
+                container.innerHTML = "<h3>Resultados ordenados:</h3>";
+                
+                mostrarResultados(data.datos);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("Error al conectar con el servidor. Asegúrate de que app.py esté corriendo.");
+            });
+        }
+
+        function mostrarResultados(lista) {
+
+            let container = document.getElementById('resultado');
+
+            container.innerHTML = "<h3>Resultados:</h3>";
+
+            lista.forEach(p => {
+
+                container.innerHTML += `
+                <div style="
+                    padding:10px;
+                    border-bottom:1px solid #ddd;
+                    margin-bottom:5px;
+                ">
+                    <strong>${p[0]} ${p[1]}</strong>
+                    <br>
+                    Cédula: ${p[2]}
+                </div>`;
+            });
+
+            if (lista.length === 0) {
+                container.innerHTML += `
+                <p>No se encontraron resultados</p>`;
+            }
+        }
+
+        function filtrarResultados() {
+
+            let texto = document
+                .getElementById('buscador')
+                .value
+                .toLowerCase();
+
+            let filtrados = datosGlobales.filter(persona => {
+
+                let nombre = persona[0].toLowerCase();
+                let apellido = persona[1].toLowerCase();
+                let cedula = persona[2].toLowerCase();
+
+                return (
+                    nombre.includes(texto) ||
+                    apellido.includes(texto) ||
+                    cedula.includes(texto)
+                );
+            });
+
+            mostrarResultados(filtrados);
+        }
+
+        function descargarPDF() {
+    if (datosGlobales.length === 0) {
+        alert("Primero procesa un archivo");
+        return;
+    }
+
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Quitamos la dependencia de la imagen para probar
+    doc.setFontSize(18);
+    doc.text("Lista asistencia", 10, 20);
+    
+    doc.setFontSize(12);
+    let y = 40;
+    datosGlobales.forEach(p => {
+        doc.text(`${p[0]} ${p[1]} - Cédula: ${p[2]}`, 10, y);
+        y += 10;
+    });
+    
+    doc.save("lista_asistencia.pdf"); // Debería descargarse inmediatamente
+}
+    </script>
+</body>
+</html>
