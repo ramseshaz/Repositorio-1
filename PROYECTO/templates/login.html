@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+
+<form action="/" method="POST" class="caja-login">
+
+    <h2>Iniciar Sesión</h2>
+
+    <div class="grupo-input">
+        <select name="tipo_usuario" required>
+            <option value="" disabled selected hidden>
+                Tipo de usuario
+            </option>
+
+            <option value="coordinador">Coordinador</option>
+            <option value="profesor">Profesor</option>
+            <option value="alumno">Alumno</option>
+        </select>
+    </div>
+
+    <div class="grupo-input">
+        <i class="fa-solid fa-user icon-field"></i>
+        <input type="text"
+               name="cedula"
+               placeholder="Cédula"
+               required>
+    </div>
+
+    <div class="grupo-input">
+        <i class="fa-solid fa-lock icon-field"></i>
+        <input type="password"
+               name="password"
+               placeholder="Contraseña"
+               required>
+    </div>
+
+    <button type="submit" class="btn btn-azul">
+        INGRESAR
+    </button>
+
+</form>
+
+{% endblock %}
