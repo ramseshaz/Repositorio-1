@@ -1,0 +1,139 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+
+<div class="dashboard-container">
+
+    <div class="dashboard-header">
+
+        <h2>Panel Estudiantil | Inscripción de Materias</h2>
+
+        <div>
+
+            <a href="/alumno/exportar_pdf"
+               class="btn-action btn-success">
+               Exportar PDF
+            </a>
+
+            <a href="/logout"
+               class="btn-action">
+               Cerrar Sesión
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="dashboard-content">
+
+        <h3 class="section-title">
+            Materias Disponibles para Inscribir
+        </h3>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Materia</th>
+                    <th>Profesor</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for id, clase in horario_oficial.items() %}
+
+                <tr>
+
+                    <td>{{ clase.dia }}</td>
+
+                    <td>
+                        {{ clase.hora_inicio }} - {{ clase.hora_fin }}
+                    </td>
+
+                    <td>{{ clase.materia }}</td>
+
+                    <td>{{ clase.profesor }}</td>
+
+                    <td>
+                        <a href="{{ url_for('inscribir', id_clase=id) }}"
+                        class="btn-action btn-success"
+                        style="padding:5px 10px;margin:0;">
+                            Inscribir
+                        </a>
+                    </td>
+
+                </tr>
+
+                {% else %}
+
+                <tr>
+                    <td colspan="5" class="empty-state">
+                        El coordinador aún no ha habilitado materias.
+                    </td>
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+        <h3 class="section-title" style="margin-top:30px;">
+            Mi Horario Inscrito
+        </h3>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Materia</th>
+                    <th>Profesor</th>
+                    <th>Acción</th> <!-- 1. Nueva columna agregada -->
+                </tr>
+            </thead>
+
+            <tbody>
+
+                {% for clase in mis_clases %}
+
+                <tr>
+                    <td>{{ clase.dia }}</td>
+                    <td>{{ clase.hora_inicio }} - {{ clase.hora_fin }}</td>
+                    <td>{{ clase.materia }}</td>
+                    <td>{{ clase.profesor }}</td>
+                    <td>
+                        <!-- 2. Botón para retirar la materia -->
+                        <a href="{{ url_for('retirar', id_clase=clase.id) }}"
+                           class="btn-action"
+                           style="padding:5px 10px; margin:0; background-color:#dc3545; color:white; text-decoration:none; border-radius:3px;">
+                            Retirar
+                        </a>
+                    </td>
+                </tr>
+
+                {% else %}
+
+                <tr>
+                    <!-- 3. Actualizamos el colspan de 4 a 5 para que ocupe toda la tabla -->
+                    <td colspan="5" class="empty-state">
+                        No has inscrito materias.
+                    </td>
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+{% endblock %}
