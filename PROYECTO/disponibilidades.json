@@ -1,0 +1,10 @@
+{
+    "1": {
+        "id": "1",
+        "cedula": "10366523",
+        "materia": "INF201",
+        "dia": "Jueves",
+        "hora_inicio": "07:30",
+        "hora_fin": "10:00"
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión Académica</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+        body { background-color: #eef0f4; min-height: 100vh; display: flex; flex-direction: column; }
+        
+        .banner-superior { width: 100%; background-color: white; border-bottom: 4px solid #01113c; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .img-extendida { width: 100%; height: auto; max-height: 140px; display: block; object-fit: cover; }
+        .seccion-central { flex-grow: 1; display: flex; justify-content: center; align-items: center; padding: 20px; flex-direction: column;}
+        
+        /* LOGIN */
+        .caja-login { background-color: white; padding: 40px; width: 380px; border-radius: 15px; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5); text-align: center; }
+        .caja-login h2 { color: #002b5c; margin-bottom: 25px; font-weight: 600; }
+        .grupo-input { position: relative; margin-bottom: 15px; }
+        .icon-field { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #777; }
+        .grupo-input input, .grupo-input select { width: 100%; padding: 12px 12px 12px 40px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; outline: none; }
+        .grupo-input select { padding-left: 12px; }
+        .btn { width: 100%; padding: 12px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 16px; margin-top: 10px; transition: 0.3s; }
+        .btn-azul { background-color: #002b5c; color: white; border: none; text-decoration: none; display: inline-block; text-align: center; }
+        .btn-borde { background-color: white; color: #002b5c; border: 2px solid #002b5c; margin-top: 15px; }
+        
+        /* PANELES DE CONTROL */
+        .dashboard-container { width: 100%; max-width: 1100px; background-color: white; border-radius: 4px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); border-top: 8px solid #002b5c; margin-bottom: 20px;}
+        .dashboard-header { background-color: #002b5c; color: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
+        .dashboard-header h2 { font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 1.2em; }
+        .btn-action { background: white; color: #002b5c; padding: 8px 15px; text-decoration: none; font-weight: bold; border-radius: 4px; font-size: 0.9em; margin-left: 10px;}
+        .btn-success { background: #28a745; color: white; border: none; }
+        .dashboard-content { padding: 30px; }
+        
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; background: #f8f9fa; padding: 20px; border: 1px solid #ddd; margin-bottom: 20px; }
+        .form-group { display: flex; flex-direction: column; }
+        .form-group label { font-weight: 700; margin-bottom: 5px; font-size: 0.8em; color: #333; text-transform: uppercase; }
+        .form-group input, .form-group select { padding: 10px; border: 1px solid #ccc; font-size: 14px; outline: none; }
+        .btn-submit { grid-column: 1 / -1; padding: 12px; background-color: #002b5c; color: white; border: none; font-weight: bold; text-transform: uppercase; cursor: pointer; }
+        
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; font-size: 0.9em; }
+        th { background-color: #002b5c; color: white; text-transform: uppercase; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .empty-state { text-align: center; padding: 20px; color: #666; font-style: italic; }
+        
+        .section-title { color: #002b5c; margin-bottom: 10px; border-bottom: 2px solid #002b5c; padding-bottom: 5px;}
+    </style>
+</head>
+
+<body>
+
+<header class="banner-superior">
+    <img src="http://www.unefa.edu.ve/portal/img/header.jpg"
+         class="img-extendida"
+         alt="Header Institucional">
+</header>
+
+<main class="seccion-central">
+
+    {% block contenido %}
+    {% endblock %}
+
+</main>
+
+</body>
+</html>
